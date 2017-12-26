@@ -1,0 +1,11 @@
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\BlogUsingEF.DAL.dll.config
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\BlogUsingEF.DAL.dll
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\BlogUsingEF.DAL.pdb
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\EntityFramework.dll
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\EntityFramework.xml
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\obj\Debug\BlogUsingEF.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\obj\Debug\BlogUsingEF.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\obj\Debug\BlogUsingEF.DAL.dll
+C:\Users\Antin\source\repos\BlogUsingEF\BlogUsingEF.DAL\obj\Debug\BlogUsingEF.DAL.pdb

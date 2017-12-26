@@ -1,0 +1,51 @@
+﻿@model IEnumerable<BlogUsingEF.DAL.Entities.Article>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@{
+            var usr = Session["UserName"];
+}
+@if (usr != null)
+{
+        @Html.ActionLink("Add Article", "AddArticle")
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataPublish)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Text)
+        </th>
+        <th></th><th></th><th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DataPublish)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Text)
+        </td>
+        <td>
+            @Html.ActionLink("View Comments", "ViewComment", new { id=item.Id }) 
+        </td>
+        @if (usr != null)
+         {
+            <td>
+                @Html.ActionLink("Add Comment", "AddComment", new { id = item.Id }) 
+            </td>
+        }
+    </tr>
+}
+
+</table>
